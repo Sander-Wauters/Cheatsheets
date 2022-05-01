@@ -1,7 +1,11 @@
 # Users, groups and permissions
+For more information follow each command with `-h`
 
-Add users
+Adding users: `adduser`
 
-```Ubuntu
-adduser user
-```
+Deleting users: `delusers`
+
+Adding groups: `addgroup`
+
+Deleting groups: `delgroup`
+
