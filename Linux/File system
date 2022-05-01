@@ -15,3 +15,26 @@
 - /etc
 
 	Think of 'etc' as "Everything To Configure" it contains most, if not all system-wide configuration files.
+- /home
+
+	Contains users personal directories.
+	
+- /lib
+
+	Contains application libraries
+	
+- /media
+
+	Contains external storage when mounted.
+	
+- /mnt
+
+	Where you manually mount storage devices.
+	
+- /opt
+
+	Mostly contains software you compile.
+	
+- /proc
+
+	
