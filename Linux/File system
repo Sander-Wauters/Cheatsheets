@@ -1,5 +1,4 @@
-# Linux
-## File system
+# File system
 - /bin
 
 	Contains binaries, i.e. some of the aplications and programs you can run.
@@ -37,4 +36,36 @@
 	
 - /proc
 
+	Contains information about your computer such as CPU, kernel, etc.
 	
+- /root
+
+	Home directory of the administrator of the system.
+	
+- /run
+
+	System processes use this to store temporary data.
+	
+- /sbin
+
+	Similar to /bin, but it contains applications that only the administator will need.
+	
+- /usr
+
+	Mish-mash of directories which in turn contain applications, libraries, documentation, etc.µ
+	
+- /srv
+
+	Contains data for servers. 
+	
+- /sys
+
+	Contains informaion from devices connected to your computer.
+	
+- /tmp
+
+	Contains temporary files.
+	
+- /var
+
+	Contains things like logs.
