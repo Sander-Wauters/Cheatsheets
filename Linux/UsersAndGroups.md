@@ -1,4 +1,4 @@
-# Users, groups and permissions
+# Users and groups
 For more information follow each command with `-h`
 
 ## Users
