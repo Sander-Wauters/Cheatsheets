@@ -6,14 +6,18 @@ Adding users: `adduser`
 
 Modify users: `usermod`
 
-Deleting users: `delusers`
+Deleting users: `delusers` `userdel`
 
-User account information location: `/etc/passwd`
+User account information file: `/etc/passwd`
 
+User password information file: `/etc/shadow`
 
 
 ## Groups
 Adding groups: `addgroup`
 
-Deleting groups: `delgroup`
+Deleting groups: `delgroup` `groupdel`
 
+Group informaion file: `/etc/group`
+
+Group password informaion file: `/etc/gshadow`
