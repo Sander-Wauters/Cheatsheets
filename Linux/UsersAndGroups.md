@@ -18,6 +18,10 @@ Adding groups: `addgroup`
 
 Deleting groups: `delgroup` `groupdel`
 
+Adding users to group: `usermod -aG groupname username`
+
+Delete users from group: `gpasswd -d username groupname`
+
 Group informaion file: `/etc/group`
 
 Group password informaion file: `/etc/gshadow`
