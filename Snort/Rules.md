@@ -29,3 +29,28 @@ ___
 `"protocol"` = `tcp`, `udp`, `icmp`, `ip`
 
 ___
+
+`"ip range"` = `any`, `CIDR notation of IP address`
+
+Examples:
+
+`any`, `!any`
+
+`192.168.0.0/24`, `!192.168.0.0/24`, `[192.168.0.0/24,10.0.0.0/24]`, `![192.168.0.0/24,10.0.0.0/24]`, ...
+
+`$HOME_NET`, `$EXTERNAL_NET`, `!$HOME_NET`, `!$EXTERNAL_NET`, ...
+
+___
+
+`"port"` = port number
+
+Examples:
+
+`any` = any port
+
+`1:1024` = ports ranging frop 1 to 1024
+
+`:6000' = ports less than or equal to 6000
+
+`500:` = ports greater than or equal to 500
+
