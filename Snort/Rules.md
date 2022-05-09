@@ -48,9 +48,20 @@ Examples:
 
 `any` = any port
 
-`1:1024` = ports ranging frop 1 to 1024
+`1:1024` = ports ranging from 1 to 1024
 
-`:6000' = ports less than or equal to 6000
+`:6000` = ports less than or equal to 6000
 
 `500:` = ports greater than or equal to 500
 
+The `!` operator can be used to negate ports.
+
+___
+
+`"direction operator"` = `->`, `<>`
+
+from `->` to
+
+`<>` = in both directions
+
+___
