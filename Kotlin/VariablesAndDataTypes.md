@@ -15,7 +15,7 @@ val c: Int // type required when no initializer is provided
 c = 3      // deferred assignment
 ```
 # Data types
-Integers
+Integer
 ```kt
 val myByte: Byte     // Byte   | 8 bit  | min: -128   | max: 127
 val myUByte: UByte   // UByte  | 8 bit  | min: 0      | max: 255B
@@ -28,3 +28,16 @@ val myUInt: UInt     // UInt   | 32 bit | min: 0      | max: 2^32-1
 val myLong: Long     // Long   | 64 bit | min: -2^63  | max: 2^63-1
 val myULong: ULong   // ULong  | 64 bit | min: 0      | max: 2^64-1
 ``` 
+Floating-point
+```kt
+val myFloat: Float   // Float  | 32 bit | decimal digits: 6-7
+val myDouble: Double // Double | 64 bit | decimal digits: 15-16
+```
+
+
+
+
+
+
+
+
