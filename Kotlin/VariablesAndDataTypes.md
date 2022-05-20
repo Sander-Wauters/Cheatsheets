@@ -33,7 +33,16 @@ Floating-point
 val myFloat: Float   // Float  | 32 bit | decimal digits: 6-7
 val myDouble: Double // Double | 64 bit | decimal digits: 15-16
 ```
-
+Literal constants
+```kt
+val myInt = 1_000_000 // underscores for readability
+val myLong = 1L // "Long" is tagged with capital 'L'
+val myHexBytes = 0xFF_EC_DE_5E // hexadecimals prefixed with "0x"
+val myBytes = 0b11010010_01101001_10010100_10010010 // binary prefixed with "0b"
+```
+Note: 
+unsigned integers can be tagged by 'u' or 'U'
+unsigned long can be tagged by 'ul' or 'UL'
 
 
 
