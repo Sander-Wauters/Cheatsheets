@@ -67,7 +67,7 @@ Note:<br>
 String concatenation can be dont with prefixing `$` to another variable
 ```kt
 val myInt: Int = 5
-val myString: String = "$myInt" // myString = 5
+val myString: String = "$myInt" // myString = "5"
 ```
 ___
 
