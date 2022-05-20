@@ -18,7 +18,7 @@ c = 3 // deferred assignment
 Integers
 ```kt
 val myByte: Byte     // Byte   | 8 bit  | min: -128   | max: 127
-val myUByte: Ubyte   // UByte  | 8 bit  | min: 0      | max: 255B
+val myUByte: UByte   // UByte  | 8 bit  | min: 0      | max: 255B
 val myShort: Short   // Short  | 16 bit | min: -32768 | max: 32767
 val myUShort: UShort // UShort | 16 bit | min: 0      | max: 65535
 
