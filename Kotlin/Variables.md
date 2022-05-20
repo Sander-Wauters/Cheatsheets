@@ -1,6 +1,0 @@
-# Variables
-
-```kt
-var 
-
-```
