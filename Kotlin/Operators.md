@@ -65,13 +65,13 @@ Unary operators:<br>
 ___
 Bitwise operations:<br>
 ```kt
-val x = (1 shl 2)  // 'shl' signed shift left
-val x = (1 shr 2)  // 'shr' signed shift right
-val x = (1 ushr 2) // 'ushr' unsigned shift right
-val x = (1 and 2)  // 'and' bitwise and
-val x = (1 or 2)   // 'or' bitwise or
-val x = (1 xor 2)  // 'xor' bitwise xor
-val x = inv(5)     // 'inv' bitwise inversion
+val x = (1 shl 2)  // 'shl()' signed shift left
+val x = (1 shr 2)  // 'shr()' signed shift right
+val x = (1 ushr 2) // 'ushr()' unsigned shift right
+val x = (1 and 2)  // 'and()' bitwise and
+val x = (1 or 2)   // 'or()' bitwise or
+val x = (1 xor 2)  // 'xor()' bitwise xor
+val x = inv(5)     // 'inv()' bitwise inversion
 ```
 Note:<br>
 Only applicable for `Int`and `Long`.
