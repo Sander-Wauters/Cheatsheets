@@ -45,6 +45,12 @@ a >= b // or a.compareTo(b) >= 0
 a <= b // or a.compareTo(b) <= 0
 ```
 ___
+"in" operator:<br>
+```kt
+a in b  // or b.contains(a)
+a !in b // or !b.contains(a)
+```
+___
 Indexed access operator:<br>
 ```kt
 a[i]             // or a.get(i)
