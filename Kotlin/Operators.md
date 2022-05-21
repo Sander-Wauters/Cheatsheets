@@ -3,23 +3,65 @@
 Standard arithmetic:<br>
 `+`, `-`, `*`, `/`, `%` and `..`
 
-`a + b` or `a.plus(b)`<br>
-`a - b` or `a.minus(b)`<br>
-`a * b` or `a.times(b)`<br>
-`a / b` or `a.div(b)`<br>
-`a % b` or `a.rem(b)`<br>
-`a .. b` or `a.rangeTo(b)`
+```kt
+a + b  // or a.plus(b)
+a - b  // or a.minus(b)
+a * b  // or a.times(b)
+a / b  // or a.div(b)
+a % b  // or a.rem(b)
+a .. b // or a.rangeTo(b)
+```
+___
+Augmented assignment:<br>
+```kt
+a += b // or a.plusAssign(b)
+a -= b // or a.minusAssign(b)
+a *= b // or a.timeAssign(b)
+a /= b // or a.divAssign(b)
+a %= b // or a.remAssign(b)
+```
 ___
 Increments and decrements:<br>
-`a++` or `a.inc()`<br>
-`++a` or `a.inc()`<br>
-`a--` or `a.dec()`<br>
-`--a` or `a.dec()`
+```kt
+a++ // or a.inc()
+++a // or a.inc()
+a-- // or a.dec()
+--a // or a.dec()
+```
+___
+Equality and inequality:<br>
+```kt
+a == b // or a?.equals(b) ?: (b === null)
+a != b // or !(a?.equals(b) ?: (b === null))
+```
+Note:<br>
+`a === b` and `a !== b` are used to compare the reference of two variables.
+___
+Comparison operators:<br>
+```kt
+a > b  // or a.compareTo(b) > 0
+a < b  // or a.compareTo(b) < 0
+a >= b // or a.compareTo(b) >= 0
+a <= b // or a.compareTo(b) <= 0
+```
+___
+Indexed access operator:<br>
+```kt
+a[i]             // or a.get(i)
+a[i, j]          // or a.get(i, j)
+a[i_1, ..., i_n] // or a.get(i_1, ..., i_n)
+
+a[i] = b             // or a.set(i, b)
+a[i, j] = b          // or a.set(i, j, b)
+a[i_1, ..., i_n] = b // or a.set(i_1, ..., i_n, b)
+```
 ___
 Unary operators:<br>
-`+a` or `a.unaryPlus()`<br>
-`-a` or `a.unaryMinus()`<br>
-`!a` or `a.not()`
+```kt
++a // or a.unaryPlus()
+-a // or a.unaryMinus()
+!a // or a.not()
+```
 ___
 Bitwise operations:<br>
 ```kt
