@@ -1,2 +1,2 @@
 # Cheatsheets
-A collection of cheat sheets for different apps and services.
+A collection of cheat sheets for different apps, services and programming languages.
