@@ -8,11 +8,17 @@ Standard arithmetic:<br>
 `a * b` or `a.times(b)`<br>
 `a / b` or `a.div(b)`<br>
 `a % b` or `a.rem(b)`<br>
-`a .. b` or `a.rangeTo(b)`<br>
+`a .. b` or `a.rangeTo(b)`
+___
+Increments and decrements:<br>
+`a++` or `a.inc()`<br>
+`++a` or `a.inc()`<br>
+`a--` or `a.dec()`<br>
+`--a` or `a.dec()`
 ___
 Unary operators:<br>
-`+a` or `a.unaryPlus()`
-`-a` or `a.unaryMinus()`
+`+a` or `a.unaryPlus()`<br>
+`-a` or `a.unaryMinus()`<br>
 `!a` or `a.not()`
 ___
 Bitwise operations:<br>
