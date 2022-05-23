@@ -70,6 +70,7 @@ val myInt: Int = 5
 val myString: String = "$myInt" // myString = "5"
 ```
 ___
+`Unit` == `void`
 
 
 
