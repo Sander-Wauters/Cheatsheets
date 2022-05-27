@@ -1,4 +1,10 @@
 # Directories, files and permissions
+## File type
+- `d` = directory
+- `-` = file
+- `l` = link
+
+## Permissions
 Common example:
 ```
 | OWNER | GROUP | WORLD |
@@ -20,3 +26,5 @@ All combinations:
 |_______|_______|_______|_______|_______|_______|_______|_______|
     7       6       5       4       3       2       1       0
 ```
+
+## Link count
