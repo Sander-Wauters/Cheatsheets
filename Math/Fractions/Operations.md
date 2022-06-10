@@ -1,8 +1,0 @@
-# Addition
-
-# Subtraction
-
-# Division
-
-# Multiplication
-
