@@ -75,7 +75,7 @@ LRESULT WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 	StateInfo* pState; // Set data structure
 	if (uMsg == WM_CREATE) // WM_CREATE message is sent out before the window is visible. Good place for initialization
 	{
-		CREATESTRUCT* pCreate = reinterpret_cast<CREATESTRUCT*>(lParam); // CREATESTRUCT.lpCreateParams is the void pointer specified in CreateWindowEx
+		CREATESTRUCT* pCreate = reinterpret_cast<CREATESTRUCT*>(lParam); // CREATESTRUCT.lpCreateParams is the void pointer specified in CreateWindowEx()
 		pState = reinterpret_cast<StateInfo*>(pCreate->lpCreateParams); // Get pointer to own data structure by casting CREATESTRUCT.lpCreateParams
 		SetWindowLongPtr(hwnd, GWLP_USERDATA, (LONG_PTR)pState); // Store the StateInfo pointer in the instance data for the window
 	}
