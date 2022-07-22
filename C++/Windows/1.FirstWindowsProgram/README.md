@@ -1,7 +1,9 @@
 # FirstWindowsProgram
 
-A basic windows program as documented in: https://docs.microsoft.com/en-us/windows/win32/learnwin32/your-first-windows-program <br>
-This program does nothing more than open a new Window.
+These are the references used in the making of windows program:
+
+1. The initial window: https://docs.microsoft.com/en-us/windows/win32/learnwin32/your-first-windows-program <br>
+2. The status bar: https://docs.microsoft.com/en-us/windows/win32/controls/create-status-bars <br>
 
 ## Visual Studio Project Options
 
